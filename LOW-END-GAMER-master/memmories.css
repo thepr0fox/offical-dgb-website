@@ -1,0 +1,93 @@
+/* set the background color to black */
+.header {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+
+body {
+    background-color: black;
+  }
+  
+  /* set the font color to green */
+  body, h1, h2, p, a {
+    color: green;
+  }
+  
+  /* add some padding to the content section */
+  .content {
+    padding: 50px;
+  }
+  
+  /* style the video container */
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+  .description {
+    font-size: 25px;
+  }
+  
+  
+  /* style the gallery section */
+  .gallery {
+    margin-top: 50px;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    transition: transform 0.5s ease;
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .gallery-item {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-item:nth-child(3n+1) {
+    margin-right: 0;
+  }
+  
+  /* add animation to the back-to-home button */
+  .back-to-home a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid green;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .back-to-home a:hover {
+    background-color: green;
+    color: black;
+    transform: scale(1.1);
+  }
+  
+  
